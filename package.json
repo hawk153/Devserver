@@ -1,0 +1,28 @@
+{
+  "name": "e13",
+  "version": "1.0.0",
+  "description": "E13.7 homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "server-dev": "webpack serve --config webpack.dev.js",
+    "server-prod": "webpack serve --config  webpack.prod.js",
+    "json-server": "json-server database.json",
+    "lint": "eslint \"src/*.js\" --fix",
+    "prepare": "husky install"
+  },
+  "author": "Mikhail_egorov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.3",
+    "json-server": "^0.17.3",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  }
+}
